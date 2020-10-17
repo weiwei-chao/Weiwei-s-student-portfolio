@@ -146,8 +146,8 @@ p{
 }
 
 #pic3{
-  width: 250px;
-  height: 170px;
+  width: 300px;
+  height: 200px;
 }
 
 #pic4{
@@ -221,4 +221,44 @@ h3{
   margin: 0;
   align-self: center;
   font-family: Gill Sans;
+}
+
+
+/* education page */
+
+#titlepic2{
+  background-color: #F0CA6C;
+}
+
+#h3-1{
+  margin-top: 100px;
+  background-color: #F7F30A;
+}
+
+#p2{
+  margin-top: 50px;
+  background-color: #F9C463;
+}
+
+.pic{
+  text-align: center;
+}
+
+/* sport team page */
+
+#titlepic3{
+  background-color: #F65E59;
+}
+
+
+/* work and project page */
+#titlepic4{
+  background-color: #F6F0F0;
+  color: black;
+}
+
+
+/* contact page */
+#titlepic5{
+  background-color: #FCA009;
 }
