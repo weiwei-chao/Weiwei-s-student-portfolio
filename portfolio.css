@@ -253,6 +253,77 @@ h3{
   background-color: #F65E59;
 }
 
+.grid2{
+  display: grid;
+  height: 850px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #FBF03F;
+  margin: 30px;
+  grid-template-areas:
+  "grid2-1 grid2-2 grid2-2 grid2-2"
+  "grid2-1 grid2-3 grid2-3 grid2-4"
+  "grid2-5 grid2-6 grid2-7 grid2-7"
+  "grid2-8 grid2-8 grid2-8 grid2-9"
+}
+
+#grid2-1{
+  grid-area: grid2-1;
+  background-color: #FFAB32;
+}
+
+#grid2-2{
+  grid-area: grid2-2;
+  background-color: #F8D282;
+
+}
+
+#grid2-3{
+  grid-area: grid2-3;
+  background-color: #F23030;
+}
+
+#grid2-4{
+  grid-area: grid2-4;
+  border: dotted white 10px;
+}
+
+#grid2-5{
+  grid-area: grid2-5;
+  border: dotted white 10px;
+}
+
+#grid2-6{
+  grid-area: grid2-6;
+  border: dotted white 10px;
+}
+
+#grid2-7{
+  grid-area: grid2-7;
+  background-color: #F7B017;
+}
+
+#grid2-8{
+  grid-area: grid2-8;
+  background-color: #F7B017;
+  text-align: center;
+}
+
+#grid2-9{
+  grid-area: grid2-9;
+  border: dotted white 10px;
+  background-color: #FBF03F;
+}
+
+#p3{
+  background-color: #F8D282;
+  margin: 0;
+}
+
+h4{
+  font-family: Times New Roman;
+  text-align: center;
+}
 
 /* work and project page */
 #titlepic4{
@@ -260,7 +331,45 @@ h3{
   color: black;
 }
 
+.grid3{
+  display: grid;
+  background-color: #FAF5E9;
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "grid3-1 grid3-2 grid3-3 grid3-4 grid3-5"
+}
 
+#grid3-1{
+  grid-area: grid3-1;
+  border: solid black 3px;
+}
+
+#grid3-2{
+  grid-area: grid3-2;
+  border: solid black 3px;
+}
+
+#grid3-3{
+  grid-area: grid3-3;
+  border: solid black 3px;
+}
+
+#grid3-4{
+  grid-area: grid3-4;
+  border: solid black 3px;
+}
+
+#grid3-5{
+  grid-area: grid3-5;
+  border: solid black 3px;
+}
+
+#pic5{
+  width: 350px;
+  height: 300;
+}
 /* contact page */
 #titlepic5{
   background-color: #FCA009;
