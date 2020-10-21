@@ -48,35 +48,29 @@ nav a:hover{
   align-items: center;
 }
 
-#flex1-1{
-  background-color: #DEF2F3;
+.flexarea{
   width: 150px;
   height: 150px;
-  margin-top:50px;
-  margin-left:50px;
   border-radius: 20px;
   text-align: center;
+}
+#flex1-1{
+  background-color: #DEF2F3;
+  margin-top:50px;
+  margin-left:50px;
 }
 
 #flex1-2{
   background-color: #CDE2F4;
-  width: 150px;
-  height: 150px;
   margin-top:50px;
   margin-left:130px;
-  border-radius: 20px;
-  text-align: center;
 }
 
 #flex1-3{
   background-color: #F6E5CA;
-  width: 150px;
-  height: 150px;
   margin-top:80px;
   margin-bottom: 80px;
   margin-left:10px;
-  border-radius: 20px;
-  text-align: center;
 }
 
 h2{
@@ -344,33 +338,95 @@ h4{
 #grid3-1{
   grid-area: grid3-1;
   border: solid black 3px;
+  text-align: center;
 }
 
 #grid3-2{
   grid-area: grid3-2;
   border: solid black 3px;
+  text-align: center;
 }
 
 #grid3-3{
   grid-area: grid3-3;
   border: solid black 3px;
+  text-align: center;
 }
 
 #grid3-4{
   grid-area: grid3-4;
   border: solid black 3px;
+  text-align: center;
 }
 
 #grid3-5{
   grid-area: grid3-5;
   border: solid black 3px;
+  text-align: center;
 }
 
 #pic5{
-  width: 350px;
-  height: 300;
+  width: 250px;
+  height: 200;
+  margin: 10px;
 }
+
+a:link{
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+}
+
+iframe{
+  margin:10px;
+}
+
 /* contact page */
 #titlepic5{
   background-color: #FCA009;
+}
+
+#flex2-1{
+  background-color: #F99039;
+  margin-left:800px;
+}
+
+#flex2-2{
+  background-color: #38B867;
+  margin-right:700px;
+}
+
+#flex2-3{
+  background-color: #F9F986;
+  margin-left:400px;
+  width:400px;
+}
+
+#flex2-4{
+  background-color: #DAFAF7;
+  margin-right:600px;
+  width:300px;
+}
+
+#flex2-5{
+  background-color: #27FA6A;
+  margin-left:10px;
+}
+
+#flex2-6{
+  background-color: #FC6F5F;
+  margin-left:800px;
+}
+
+h5{
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+h5:hover{
+  color: #0792F9;
 }
