@@ -6,15 +6,15 @@ body{
 
 #cover{
   width: 90%;
-  height: 100%;
   margin-left: 100px;
 }
 
+
 #title{
-  width: 190px;
-  height: 65px;
+  width: 10rem;
   margin-top: -90px;
 }
+
 
 /*menu bar*/
 nav{
@@ -46,7 +46,7 @@ nav a:hover{
 .flex1{
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 10px;
   align-items: center;
 }
 
@@ -136,8 +136,8 @@ p{
 }
 
 #pic2{
-  width: 110%;
-  height: 150%;
+  width: 100%;
+  height: 100%;
   align-self: center;
   border-radius: 10px;
 }
@@ -272,24 +272,29 @@ li{
 
 .educationword{
   position: absolute;
-  margin-left: 90px;
+  margin-left: 40px;
   margin-top: -200px;
   font-family: Impact;
   font-size: 30px;
   color: #FF2700;
+  justify-content: center;
 }
 
-#educationword1{
+#educationlink{
+  width:10vw;
+  justify-content: center;
+}
+/* #educationword1{
   margin-left: 350px;
-}
+} */
 
-#educationword2{
+/* #educationword2{
   margin-left: 700px;
 }
 
 #educationword3{
   margin-left: 1050px;
-}
+} */
 
 .educationword:hover{
   color:black;
@@ -311,7 +316,7 @@ li{
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #FBF03F;
-  margin: 30px;
+  margin-bottom: 100px;
   grid-template-areas:
   "grid2-1 grid2-2 grid2-2 grid2-2"
   "grid2-1 grid2-3 grid2-3 grid2-4"
@@ -444,6 +449,14 @@ iframe{
 }
 
 /* contact page */
+
+.flex4{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+}
+
 #titlepic5{
   background-color: #FCA009;
 }
@@ -485,6 +498,110 @@ h5{
   margin-top: -10px;
 }
 
-/* h5:hover{
+h5:hover{
   color: #0792F9;
-} */
+}
+
+#pic6{
+  width: 100%;
+}
+
+@media only screen and (max-width: 1300px){
+  .grid3{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "grid3-1 grid3-2 grid3-3 grid3-4"
+    "grid3-5 grid3-5 grid3-5 grid3-5";
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  .flex{
+    flex-direction: column;
+  }
+  #title{
+    width: 7em;
+  }
+  .flexabt{
+    flex-direction: column;
+  }
+  .flex1{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #flex1-2{
+    margin-left: 10px;
+  }
+  .grid1{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "grid1-1"
+    "grid1-4"
+    "grid1-2"
+    "grid1-3"
+    "grid1-5";
+  }
+  #h4-1{
+    margin:2px;
+    padding:0px;
+    font-size: 18px;
+  }
+  #flex2-1{
+    margin-left:300px;
+  }
+  #flex2-2{
+    margin-left:400px;
+  }
+  #flex2-3{
+    margin-top: 20px;
+    margin-left:90px;
+  }
+  #flex2-4{
+    margin-top:20px;
+    margin-left:500px;
+  }
+  #flex2-5{
+    margin-top: 20px;
+    margin-left:100px;
+  }
+  .grid3{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "grid3-1 grid3-1 grid3-1 grid3-4 grid3-4 grid3-4"
+    "grid3-2 grid3-2 grid3-3 grid3-3 grid3-5 grid3-5"
+  }
+  .grid2{
+    margin-bottom: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  #cover{
+    width: 80%;
+  }
+  #title{
+    width: 5em;
+  }
+  nav{
+    flex-direction: column;
+  }
+  .flexabt{
+    flex-direction: column;
+  }
+  .flex1{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #flex1-2{
+    margin-left: 10px;
+  }
+  .grid3{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "grid3-1"
+    "grid3-2"
+    "grid3-3"
+    "grid3-4"
+    "grid3-5";
+  }
+}
